@@ -1,0 +1,21 @@
+@import url(../Questions/Q1/question.css);
+
+
+.final-score {
+  margin-top: 5rem;
+  font-size: 2rem;
+  align-self: center;
+  color: var(--text-color);
+}
+
+.footer {
+  margin: 3rem;
+}
+
+.correct {
+  background-color: var(--correct-color);
+}
+
+.wrong {
+  background-color: var(--wrong-color);
+}

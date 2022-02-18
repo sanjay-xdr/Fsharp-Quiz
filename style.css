@@ -1,0 +1,85 @@
+@import url(./UtilityCSS/utility.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #111827;
+  --card-background: #19212c;
+  --margin-sm: 4px 6px;
+  --grey-color: #94a3b8;
+  --text-color: #fafafa;
+  --medium-color: #d97706;
+  --hard-color: #dc2626;
+  --active-color: #eab308;
+}
+
+.nav-title {
+  font-size: 4rem;
+  align-self: center;
+  margin: var(--margin-sm);
+}
+
+.mode {
+  width: 20rem;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.card {
+  margin: 1rem;
+  max-width: 36.2rem;
+  height: 46rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: var(--card-background);
+  border-radius: 1rem;
+}
+
+.card-img {
+  height: 30rem;
+  width: 36rem;
+  border-radius: 1rem;
+}
+
+.title {
+  color: var(--text-color);
+}
+
+.card-description {
+  color: var(--grey-color);
+}
+
+.nav-play,
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 2rem;
+  padding: 1rem;
+}
+.nav-play:hover {
+  color: var(--grey-color);
+}
+.border-solid {
+  border: 1px solid #64748b;
+}
+
+.easy:hover {
+  color: var(--grey-color);
+}
+
+.medium:hover {
+  color: var(--medium-color);
+}
+
+.hard:hover {
+  color: var(--hard-color);
+}
+
+.active {
+  color: var(--active-color);
+}

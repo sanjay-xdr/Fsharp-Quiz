@@ -1,4 +1,4 @@
-@import url(./UtilityCSS/utility.css);
+@import url(../UtilityCSS/utility.css);
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +14,9 @@
   --medium-color: #d97706;
   --hard-color: #dc2626;
   --active-color: #eab308;
+  --correct-color: #4caf50;
+  --wrong-color: #f44336;
+  --border-color: #64748b;
 }
 
 .nav-title {
@@ -22,66 +25,55 @@
   margin: var(--margin-sm);
 }
 
-.mode {
-  width: 20rem;
-}
-
 body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
 
-.card {
-  margin: 1rem;
-  max-width: 36.2rem;
-  height: 46rem;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  background-color: var(--card-background);
-  border-radius: 1rem;
-}
-
-.card-img {
-  height: 30rem;
-  width: 36rem;
-  border-radius: 1rem;
-}
-
-.title {
-  color: var(--text-color);
-}
-
-.card-description {
-  color: var(--grey-color);
-}
-
-.nav-play,
 .nav-link {
   text-decoration: none;
   color: var(--text-color);
   font-size: 2rem;
   padding: 1rem;
 }
-.nav-play:hover {
-  color: var(--grey-color);
-}
+
 .border-solid {
-
-  border: 1px solid #64748b ;
-
-}
-
-.easy:hover {
-  color: var(--grey-color);
-}
-
-.medium:hover {
-  color: var(--medium-color);
-}
-
-.hard:hover {
-  color: var(--hard-color);
+  border: 1px solid var(--border-color);
 }
 
 .active {
+  color: var(--active-color);
+}
+
+.rule-box {
+  margin: 2rem;
+  height: 30rem;
+  width: 50%;
+}
+
+.rule {
+  align-self: center;
+  font-size: 3rem;
+  margin: var(--margin-sm);
+  color: var(--grey-color);
+}
+
+.quiz-start-btn {
+  height: 5rem;
+  width: 35rem;
+  border: none;
+  padding: 4px 8px;
+  background-color: var(--medium-color);
+  color: var(--text-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.quiz-start-btn:hover {
+  filter: brightness(0.9);
+}
+
+.highlighted-text {
+  font-size: 3rem;
   color: var(--active-color);
 }

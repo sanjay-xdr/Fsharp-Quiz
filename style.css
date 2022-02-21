@@ -14,6 +14,7 @@
   --medium-color: #d97706;
   --hard-color: #dc2626;
   --active-color: #eab308;
+  --border-color:#64748b;
 }
 
 .nav-title {
@@ -65,7 +66,7 @@ body {
   color: var(--grey-color);
 }
 .border-solid {
-  border: 1px solid #64748b;
+  border: 1px solid var(--border-color) ;
 }
 
 .easy:hover {

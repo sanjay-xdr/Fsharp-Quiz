@@ -16,6 +16,7 @@
   --active-color: #eab308;
   --correct-color: #4caf50;
   --wrong-color: #f44336;
+  --border-color: #64748b;
 }
 
 .nav-title {
@@ -37,7 +38,7 @@ body {
 }
 
 .border-solid {
-  border: 1px solid #64748b;
+  border: 1px solid var(--border-color);
 }
 
 .active {
@@ -61,7 +62,6 @@ body {
   height: 5rem;
   width: 35rem;
   border: none;
-  outline: none;
   padding: 4px 8px;
   background-color: var(--medium-color);
   color: var(--text-color);
